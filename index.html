@@ -5,23 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOON DIAMOND • Neil Diamond Tribute</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        body { background: #0a0a0a; color: #f5f5f5; }
-        .gold { color: #f4d03f; }
+        body {
+            background: #0a0a0a;
+            color: #f5f5f5;
+        }
         .metallic {
             background: linear-gradient(90deg, #f4d03f, #fff, #f4d03f);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-weight: 700;
         }
-        .section { background: #111; }
     </style>
 </head>
 <body class="font-sans">
 
-    <!-- Hero -->
-    <div class="min-h-[78vh] flex items-center justify-center relative"
-         style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.65)), 
+    <!-- Hero Section -->
+    <div class="min-h-[75vh] flex items-center justify-center relative"
+         style="background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.7)), 
                 url('https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2000&q=80'); 
                 background-size: cover; background-position: center; background-attachment: fixed;">
 
@@ -31,7 +33,7 @@
                     ONE MAN • ONE STAGE • ONE DREAM
                 </span>
             </div>
-
+            
             <h1 class="text-7xl md:text-8xl font-bold tracking-tighter mb-3 leading-none">
                 <span class="metallic">MOON</span><br>
                 <span class="metallic">DIAMOND</span>
@@ -43,9 +45,10 @@
     <!-- Upcoming Shows (pulled up over background) -->
     <div class="max-w-2xl mx-auto px-6 -mt-14 relative z-10 pb-12">
         <div class="bg-black/85 border border-[#f4d03f]/30 rounded-2xl p-8 text-center shadow-2xl">
+            
             <h2 class="text-[#f4d03f] text-xl tracking-[3px] mb-6">UPCOMING SHOWS</h2>
             <p class="text-2xl mb-8">SATURDAY, JULY 25, 2026</p>
-
+            
             <div class="flex justify-center gap-10 mb-8">
                 <div>
                     <p class="text-[#f4d03f] text-sm tracking-widest mb-1">SHOW 1</p>
@@ -56,7 +59,7 @@
                     <p class="text-3xl font-semibold">7:30 – 8:30 PM</p>
                 </div>
             </div>
-
+            
             <div class="border-t border-[#f4d03f]/20 pt-6">
                 <p class="text-xl font-medium">Singing Panda's</p>
                 <p class="text-gray-300">757 E Chandler Blvd, Chandler, AZ</p>
@@ -68,12 +71,18 @@
     <!-- Songs You'll Hear -->
     <div class="max-w-4xl mx-auto px-6 py-12">
         <h3 class="text-center text-2xl mb-8 tracking-widest text-[#f4d03f]">SONGS YOU'LL HEAR</h3>
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto">
             <div class="bg-[#111] border border-[#f4d03f]/20 p-5 rounded-xl">
                 <ul class="space-y-2 text-lg">
                     <li>Sweet Caroline</li>
                     <li>Cracklin' Rosie</li>
                     <li>Solitary Man</li>
+                    <li>Forever in Blue Jeans</li>
+                    <li>Heart Light</li>
+                    <li>I'm a Believer</li>
+                    <li>Red Red Wine</li>
+                    <li>Song Sung Blue</li>
                 </ul>
             </div>
             <div class="bg-[#111] border border-[#f4d03f]/20 p-5 rounded-xl">
@@ -82,12 +91,16 @@
                     <li>I Am... I Said</li>
                     <li>Kentucky Woman</li>
                     <li>America</li>
+                    <li>Holly Holy</li>
+                    <li>Hello Again</li>
+                    <li>Longfellow Serenade</li>
+                    <li>Shilo</li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <!-- Mailing List -->
+    <!-- Mailing List Form -->
     <div class="max-w-2xl mx-auto px-6 py-12">
         <div class="text-center mb-8">
             <h2 class="text-3xl font-bold mb-3">Stay in the Loop</h2>
@@ -115,8 +128,9 @@
 
             <button type="submit" 
                     class="w-full bg-[#f4d03f] hover:bg-[#e8c03a] transition-colors text-black font-bold py-4 rounded-xl text-lg tracking-wider">
-                JOIN THE MOON DIAMOND LIST
+                JOIN THE MOON DIAMOND EMAIL LIST
             </button>
+            
             <p class="text-center text-xs text-gray-500 mt-4">We respect your inbox. Unsubscribe anytime.</p>
         </form>
     </div>
